@@ -31,7 +31,7 @@ export function createGallery(images) {
 		  alt="${tags}" 
 		/>
 	</a>
-    <div class="info">
+    
       <ul class="baner">
           <li class="baner-li">
             <p class="baner-title">Likes</p>
@@ -50,7 +50,7 @@ export function createGallery(images) {
             <p class="baner-text">${downloads}</p>
           </li>
       </ul>
-    </div>
+    
 </li>
 `
     )
